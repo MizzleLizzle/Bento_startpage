@@ -127,7 +127,7 @@ body {
   justify-content: center;
 }
 
-.weatherBlock {
+.searchBlock {
   grid-column: 3 / span 2;
   grid-row: 1 / span 2;
   display: flex;
@@ -141,12 +141,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-}
-
-.weather {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .clock {
@@ -326,6 +320,42 @@ body {
   color: var(--sfg);
 }
 
+.box{
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  background: none;
+  border: 4px solid var(--fg);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-size: 26px;
+  color: var(--fg);
+  outline: none;
+  transition: .5s;
+}
+.box:hover input{
+  width: 350px;
+  background: var(--background);
+  border-radius: 10px;
+}
+.box i{
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-50%,-50%);
+  font-size: 26px;
+  transition: .2s;
+  color: var(--fg);
+}
+.box:hover i{
+  opacity: 0;
+  z-index: -1;
+}
+
 /* M E D I A - Q U E R I E S */
 
 @media only screen and (max-width: 68.75em) {
@@ -335,12 +365,13 @@ body {
   }
 
   .timeBlock {
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 1;
     grid-column: 1 / span 4;
   }
 
-  .weatherBlock {
-    display: none;
+  .searchBlock {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 4;
   }
 
   #greetings {
@@ -348,10 +379,13 @@ body {
   }
 
   .linksBlockRight {
-    display: none;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 4;
   }
 
   .linksBlockLeft {
+
+    grid-row: 3 / span 1;
     grid-column: 1 / span 4;
   }
 
