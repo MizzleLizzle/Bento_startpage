@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Mika',
 	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'briefcase',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Intranet',
+					link: 'https://intranet.singular-it.de/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Outlook',
+					link: 'https://outlook.office365.com/mail/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Gitlab',
+					link: 'https://singular-code.de/',
 				},
 				{
 					name: 'Slack',
 					link: 'https://www.slack.com',
+				},
+			],
+		},
+		{
+			icon: 'film',
+			id: '2',
+			links: [
+				{
+					name: 'Movies',
+					link: 'https://www.fmovies.to',
+				},
+				{
+					name: 'Youtube',
+					link: 'https://www.youtube.com',
+				},
+				{
+					name: 'Series DE',
+					link: 'https://www.bs.to',
+				},
+				{
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
 				},
 			],
 		},
@@ -183,46 +183,46 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'graduation-cap',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'Almaweb',
+					link: 'https://almaweb.uni-leipzig.de/',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Moodle',
+					link: 'https://moodle2.uni-leipzig.de/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Libgen',
+					link: 'https://www.libgen.is',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Uni Mail',
+					link: 'https://mail.uni-leipzig.de',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'code',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Stackoverflow',
+					link: 'https://stackoverflow.com/',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Github',
+					link: 'https://github.com/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Codewars',
+					link: 'https://www.codewars.com',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/',
 				},
 			],
 		},
