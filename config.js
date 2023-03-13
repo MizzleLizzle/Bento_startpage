@@ -173,8 +173,8 @@ const CONFIG = {
 					link: 'https://www.bs.to',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Letterboxd',
+					link: 'https://letterboxd.com/',
 				},
 			],
 		},
